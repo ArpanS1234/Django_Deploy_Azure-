@@ -10,6 +10,7 @@ urlpatterns = [
     path('services/', views.services, name='services'),
     path('blog/', views.blog, name='blog'),
     path('contact-us/', views.contactus, name='contactus'),
+    path('donate/', views.donate, name='donate'),
     path('404/', views.pagenotfound, name='404')
     # Add more paths as needed
 ]

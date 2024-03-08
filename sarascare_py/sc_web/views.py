@@ -23,5 +23,8 @@ def blog(request):
 def contactus(request):
     return render(request, 'sc_web/contact-us.html')
 
+def donate(request):
+    return render(request, 'sc_web/donate.html')
+
 def pagenotfound(request):
     return render(request, 'sc_web/404.html')

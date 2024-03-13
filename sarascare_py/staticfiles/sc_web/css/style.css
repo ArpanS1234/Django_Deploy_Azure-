@@ -46,6 +46,7 @@
     32. Services page
     33. Team member page
     34. 404 page
+    35. Donations page
 
 
 
@@ -2033,7 +2034,7 @@ span.donate-tdy.donate-tdy-green:hover,.form_wrapper_footer.form_wrapper_footer_
 21. Portfolio page
 =======================*/
 .big-banner-area{
-    background: url(../img/slider/bg-breadcrumb.jpg) no-repeat center center/cover;
+    background: url(../img/slider/banner1.jpg) no-repeat center center/cover;
     min-height: 400px;
     padding: 169px 0;
 }
@@ -4082,6 +4083,45 @@ ul.pro-cat-children {
 }
 .nivoSlider a.stat img {
   position: static;
+}
+
+
+/*=====================
+35. Donations
+=======================*/
+.summary {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.give-form-title {
+    color: #333;
+}
+
+.give-donation-levels-wrap {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.give-donation-level-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.give-donation-level-btn:hover {
+    background-color: #45a049;
+}
+
+.fontcolor {
+    color: darkred;
 }
 
 

@@ -8,6 +8,9 @@ def home(request):
 def causes(request):
     return render(request, 'sc_web/causes.html')
 
+def signup(request):
+    return render(request, 'sc_web/signup.html')
+
 def portfolio(request):
     return render(request, 'sc_web/portfolio.html')
 

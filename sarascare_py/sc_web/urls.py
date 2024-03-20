@@ -12,7 +12,8 @@ urlpatterns = [
     path('blog/', views.blog, name='blog'),
     path('contact-us/', views.contactus, name='contactus'),
     path('donate/', views.donate, name='donate'),
-    path('404/', views.pagenotfound, name='404')
+    path('404/', views.pagenotfound, name='404'),
+    path('contact-form-submit/', views.contact_form_submit, name='contact_form_submit'),
     # Add more paths as needed
 ]
 

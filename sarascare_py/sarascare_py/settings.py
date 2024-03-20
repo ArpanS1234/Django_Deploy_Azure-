@@ -70,6 +70,14 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'sarascare_py.wsgi.application'
 
+#Email
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.office365.com'  # Replace with your SMTP server (e.g., 'smtp.gmail.com')
+EMAIL_HOST_USER = 'sanduni@saras.care'
+EMAIL_HOST_PASSWORD = 'SanduSC12'
+EMAIL_PORT = 587
+
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases

@@ -26,6 +26,12 @@ def services(request):
 def blog(request):
     return render(request, 'sc_web/blog.html')
 
+def blog_1(request):
+    return render(request, 'sc_web/blog-details.html')
+
+def blog_2(request):
+    return render(request, 'sc_web/blog_2.html')
+
 def contactus(request):
     return render(request, 'sc_web/contact-us.html')
 

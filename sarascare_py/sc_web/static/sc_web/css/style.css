@@ -1627,7 +1627,7 @@ ul.mdl-tab li {
 16. Testimonial-area
 =======================*/
 .testimonial-area {
-  background: rgba(0, 0, 0, 0) url("../img/child-img/bkg_testimonial.jpg") repeat fixed center top;
+  background: rgba(0, 0, 0, 0) url("../img/child-img/testimonials.png") repeat fixed center top;
   padding: 112px 0 86px;
 }
 .testimonial-mt{
@@ -2034,7 +2034,7 @@ span.donate-tdy.donate-tdy-green:hover,.form_wrapper_footer.form_wrapper_footer_
 21. Portfolio page
 =======================*/
 .big-banner-area{
-    background: url(../img/slider/bg-breadcrumb.jpg) no-repeat center center/cover;
+    background: url(../img/slider/red-banner.png) no-repeat center center/cover;
     min-height: 400px;
     padding: 169px 0;
 }
@@ -2154,7 +2154,7 @@ a.fshn-befr:hover:before{
 23. Shop page
 =======================*/
 .big-banner-area.shop-bnr-area{
-    background: url('../img/slider/shop-bg-breadcrumb.jpg') no-repeat center center/cover;
+    background: url('../img/slider/red-banner.png') no-repeat center center/cover;
 }
 .product-shop-mb{
     margin-bottom: 25px;
@@ -2539,7 +2539,7 @@ a.wd_cart_title {
   padding-bottom: 256px;
 }
 .big-banner-area.cause-bnr-area {
-    background: rgba(0, 0, 0, 0) url('../img/slider/cause-bg-breadcrumb.jpg') no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url('../img/slider/volunteer.png') no-repeat scroll center center / cover;
 }
 .causes-area .cause-prgrs-br {
     padding: 33px 20px 20px;
@@ -3424,7 +3424,7 @@ p.checkout-coupon input[type="submit"]:hover{
 30. Blog details page
 =======================*/
 .big-banner-area.blog-detl {
-    background: rgba(0, 0, 0, 0) url("../img/slider/blog-bg-breadcrumb.jpg") no-repeat scroll center center / cover ;
+    background: rgba(0, 0, 0, 0) url("../img/slider/red-banner.png") no-repeat scroll center center / cover ;
 }
 .blog-detail-area .recent-news-desc h4::before {
     display: none;

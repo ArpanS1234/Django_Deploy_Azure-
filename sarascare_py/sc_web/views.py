@@ -32,6 +32,18 @@ def blog_1(request):
 def blog_2(request):
     return render(request, 'sc_web/blog_2.html')
 
+def blog_3(request):
+    return render(request, 'sc_web/blog_3.html')
+
+def blog_4(request):
+    return render(request, 'sc_web/blog_4.html')
+
+def blog_5(request):
+    return render(request, 'sc_web/blog_5.html')
+
+def blog_6(request):
+    return render(request, 'sc_web/blog_6.html')
+
 def contactus(request):
     return render(request, 'sc_web/contact-us.html')
 
@@ -61,7 +73,6 @@ def contact_form_submit(request):
     else:
         # Handle GET request or other HTTP methods
         return HttpResponse("Only POST requests are allowed for this endpoint.")
-
 
 
 def donate(request):

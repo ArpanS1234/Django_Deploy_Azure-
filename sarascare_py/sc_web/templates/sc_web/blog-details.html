@@ -75,7 +75,7 @@
                                     </span>
                                     <span class="support-email">
                                         <i class="fa fa-envelope"></i>
-                                        team@saras.care
+                                        <a href="mailto:team@saras.care">team@saras.care</a>
                                     </span>
                                 </div>
                             </div>
@@ -98,7 +98,7 @@
                                         <li><a href="/">Home</a></li>
                                         <li><a href="/signup/">Register</a></li>
                                         <li><a href="/portfolio/">Portfolio</a></li>
-                                        <li class="active parent"><a href="">Blog</a></li>
+                                        <li><a href="/blog/">Blog</a></li>
                                         <li><a href="/gallery/">Gallery</a></li> 
                                         <li><a href="/contact-us/">Contact us</a></li>
                                         <li><a href="https://www.paypal.com/donate?token=T_l_-huobSyP6_BGc84nRXWl5UOnL1kvEG3y4tCY2BsvsI2WK6_5spIRncoNxkUFWKx_1lgz4SAj_q5wVe2XxPpJ4-e&useraction=commit/donate/&targetMeta=eyJ6b2lkVmVyc2lvbiI6IjlfMF81OCIsInRhcmdldCI6IkRPTkFURSIsInNka1ZlcnNpb24iOiIwLjguMCJ9&sdkMeta=eyJ1cmwiOiJodHRwczovL3d3dy5wYXlwYWxvYmplY3RzLmNvbS9kb25hdGUvc2RrL2RvbmF0ZS1zZGsuanMiLCJhdHRycyI6eyJkYXRhLXVpZCI6IjQyN2JjMzhiMjBfbWppNm16eTZudHEifX0" target="_blank"><span class="donate-tdy">Donate Today!</span></a></li>
@@ -122,7 +122,7 @@
                                     <li><a href="/">Home</a></li>
                                     <li><a href="/signup/">Register</a></li>
                                     <li><a href="/portfolio/">Portfolio</a></li>
-                                    <li><a href="">Blog</a></li>
+                                    <li><a href="/blog/">Blog</a></li>
                                     <li><a href="/gallery/">Gallery</a></li> 
                                     <li><a href="/contact-us/">Contact us</a></li>
                                 </ul>
@@ -156,11 +156,7 @@
                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                         <div class="all-blog-details">
                             <div class="blog-detail-img recent-news-img ">
-                                <img src="{% static 'sc_web/img/slider/SarasPics2.jpeg' %}" alt="" />
-                                <div class="extra-date">
-                                    <span class="wd-date">22</span>
-                                    <span class="wd-month">August</span>
-                                </div>
+                                <img src="{% static 'sc_web/img/slider/SarasPics3.jpg' %}" alt="" />
                             </div>
                             <div class="recent-news-desc">
                                 <h4>
@@ -190,56 +186,42 @@
                             <div class="all-recent-blogs">
                                 <div class="single-rcnt-blg">
                                     <div class="rcnt-blg-img img-hvr-effect">
-										<a class="venobox" data-gall="myGallery" href="img/child-img/rb1.jpg"><img src="img/child-img/rb1.jpg" alt="image alt"/></a>
+                                        <a class="venobox" data-gall="myGallery" href="{% static 'sc_web/img/slider/SarasPics1.png' %}"><img src="{% static 'sc_web/img/slider/SarasPics1.png' %}" alt="Your Image" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;"></a>
                                     </div>
                                     <div class="rcnt-blg-descs">
-                                        <a href="#">Curabitur euismod iaculis</a>
-                                        <p class="entry-meta"> August 22, 2014 </p>
+                                        <a href="/blog_2/">Partnering With Salvation Army</a>
                                     </div>
                                 </div>
                                 <div class="single-rcnt-blg">
                                     <div class="rcnt-blg-img img-hvr-effect">
-										<a class="venobox" data-gall="myGallery" href="img/child-img/rb2.jpg"><img src="img/child-img/rb2.jpg" alt="image alt"/></a>
+                                        <a class="venobox" data-gall="myGallery" href="{% static 'sc_web/img/child-img/shepparton.jpg' %}"><img src="{% static 'sc_web/img/child-img/shepparton.jpg' %}" alt="Your Image" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;"></a>
                                     </div>
                                     <div class="rcnt-blg-descs">
-                                        <a href="#">Dress dungaree silhouette</a>
-                                        <p class="entry-meta"> August 22, 2014 </p>
+                                        <a href="/blog_3/">Partnering With Shepparton Food Share</a>
                                     </div>
                                 </div>
                                 <div class="single-rcnt-blg">
                                     <div class="rcnt-blg-img img-hvr-effect">
-										<a class="venobox" data-gall="myGallery" href="img/child-img/rb3.jpg"><img src="img/child-img/rb3.jpg" alt="image alt"/></a>
+                                        <a class="venobox" data-gall="myGallery" href="{% static 'sc_web/img/slider/SarasOffice.png' %}"><img src="{% static 'sc_web/img/slider/SarasOffice.png' %}" alt="Your Image" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;"></a>
                                     </div>
                                     <div class="rcnt-blg-descs">
-                                        <a href="#">Indigo skirt skirt</a>
-                                        <p class="entry-meta"> August 22, 2014 </p>
+                                        <a href="/blog_4/">SarasCare Establishes Home In Docklands</a>
                                     </div>
                                 </div>
                                 <div class="single-rcnt-blg">
                                     <div class="rcnt-blg-img img-hvr-effect">
-										<a class="venobox" data-gall="myGallery" href="img/child-img/rb4.jpg"><img src="img/child-img/rb4.jpg" alt="image alt"/></a>
+                                        <a class="venobox" data-gall="myGallery" href="{% static 'sc_web/img/child-img/saras-team.jpeg' %}"><img src="{% static 'sc_web/img/child-img/saras-team.jpeg' %}" alt="Your Image" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;"></a>
                                     </div>
                                     <div class="rcnt-blg-descs">
-                                        <a href="#">Plaited leather flats</a>
-                                        <p class="entry-meta"> August 22, 2014 </p>
+                                        <a href="/blog_5/">Collaborating With The Awaiters Community</a>
                                     </div>
                                 </div>
                                 <div class="single-rcnt-blg">
                                     <div class="rcnt-blg-img img-hvr-effect">
-										<a class="venobox" data-gall="myGallery" href="img/child-img/rb5.jpg"><img src="img/child-img/rb5.jpg" alt="image alt"/></a>
+                                        <a class="venobox" data-gall="myGallery" href="{% static 'sc_web/img/slider/diwali.png' %}"><img src="{% static 'sc_web/img/slider/diwali.png' %}" alt="Your Image" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;"></a>
                                     </div>
                                     <div class="rcnt-blg-descs">
-                                        <a href="#">viverra malesuada quam </a>
-                                        <p class="entry-meta"> August 22, 2014 </p>
-                                    </div>
-                                </div>
-                                <div class="single-rcnt-blg">
-                                    <div class="rcnt-blg-img img-hvr-effect">
-										<a class="venobox" data-gall="myGallery" href="img/child-img/rb6.jpg"><img src="img/child-img/rb6.jpg" alt="image alt"/></a>
-                                    </div>
-                                    <div class="rcnt-blg-descs">
-                                        <a href="#">Morbi et venenatis</a>
-                                        <p class="entry-meta"> August 22, 2014 </p>
+                                        <a href="/blog_6/">Diwali Festival In Docklands In October</a>
                                     </div>
                                 </div>
                             </div>

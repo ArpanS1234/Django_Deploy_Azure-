@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-63gddvop@%n4)hhk$-^5+he%#jdd6o(#rqa-mq5jsv#^esuukw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = False    
 
-ALLOWED_HOSTS = ['djangosarascare.azurewebsites.net']
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -69,14 +69,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'sarascare_py.wsgi.application'
-
-#Email
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.office365.com'  # Replace with your SMTP server (e.g., 'smtp.gmail.com')
-EMAIL_HOST_USER = 'sanduni@saras.care'
-EMAIL_HOST_PASSWORD = 'SanduSC12'
-EMAIL_PORT = 587
 
 
 # Database

@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
+import pyrebase
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -26,7 +27,7 @@ SECRET_KEY = 'django-insecure-63gddvop@%n4)hhk$-^5+he%#jdd6o(#rqa-mq5jsv#^esuukw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False    
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://sarascare-py.web.app']
 
 # Application definition
 

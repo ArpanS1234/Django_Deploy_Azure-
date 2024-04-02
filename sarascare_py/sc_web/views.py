@@ -2,6 +2,18 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.core.mail import send_mail
 from django.conf import settings
+import pyrebase 
+
+config {
+    'apiKey': "AIzaSyD1nlkB2-GMNA1Nsm4TGGH0A10X7GS4jxY",
+    'authDomain': "sarascare-py.firebaseapp.com",
+    'projectId': "sarascare-py",
+    'storageBucket': "sarascare-py.appspot.com",
+    'messagingSenderId': "291054721223",
+    'appId': "1:291054721223:web:c82261f4c3885e1e9346e2"
+};  
+
+const app = initializeApp(config);
 
 # Create your views here.
 

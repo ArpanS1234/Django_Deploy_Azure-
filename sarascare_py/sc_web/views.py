@@ -13,7 +13,7 @@ config {
     'appId': "1:291054721223:web:c82261f4c3885e1e9346e2"
 };  
 
-const app = initializeApp(config);
+firebase = pyrebase.initialize_app(config)
 
 # Create your views here.
 

@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "sc_web/templates",
+    "public": ".",
     "ignore": [
       "firebase.json",
       "**/.*",

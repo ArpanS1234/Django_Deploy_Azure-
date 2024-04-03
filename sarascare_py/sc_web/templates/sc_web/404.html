@@ -58,12 +58,6 @@
                         </div>
                         <div class="col-lg-8 col-md-8 col-sm-8">
                             <div class="top-srch-bx">
-                                <input type="text" placeholder="Text Search">
-                                <div class="button_search">
-                                    <button title="Search" type="submit">
-                                        <i class="fa fa-search"></i>
-                                    </button>
-                                </div>
                             </div>
                             <div class="account-login">
                             </div>
@@ -75,7 +69,7 @@
                                     </span>
                                     <span class="support-email">
                                         <i class="fa fa-envelope"></i>
-                                        team@saras.care
+                                        <a href="mailto:team@saras.care">team@saras.care</a>
                                     </span>
                                 </div>
                             </div>
@@ -88,54 +82,20 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-3 col-sm-3">
                             <div class="logo">
-                                <a href="index.html"><img src="img/logo.png" alt=""></a>
+                                <a href=""><img src="{% static 'sc_web/img/sarascare.png' %}" alt=""></a>
                             </div>
                         </div>
                         <div class="col-lg-9 col-md-9 col-sm-9 hidden-xs">
                             <div class="main-menu">
                                 <nav>
                                     <ul>
-                                        <li class="active parent">
-                                            <a href="index.html">Home</a>
-                                            <ul class="submenu">
-                                                <li><a href="index.html">Home Default</a></li>
-                                                <li><a href="index-2.html">Home Blue</a></li>
-                                                <li><a href="index-3.html">Home Turquoise</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="causes.html">Causes</a></li>
-                                        <li><a href="portfolio.html">Portfolio</a></li>
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li class="parent">
-                                            <a href="#">Pages</a>
-                                            <div class="mega-menu">
-                                                <span>
-                                                    <a class="mm-title" href="#">page set 1</a>
-                                                    <a href="shopping-cart.html">Cart</a>
-                                                    <a href="shop-leftsidebar.html">Shop left sidebar</a>
-                                                    <a href="shop-rightsidebar.html">Shop right sidebar</a>
-                                                    <a href="shop-list.html">Shop list</a>
-                                                    <a href="shop-fullwidth.html">Shop fullwidth</a>
-                                                </span>
-                                                <span>
-                                                    <a class="mm-title" href="#">page set 2</a>
-                                                    <a href="blog-details.html">Blog details</a>
-                                                    <a href="checkout.html">Checkout</a>
-                                                    <a href="contact-us.html">Contact us</a>
-                                                    <a href="gallery.html">Gallery</a>
-                                                    <a href="my-account.html">My account</a>
-                                                </span>
-                                                <span>
-                                                    <a class="mm-title" href="#">page set 3</a>
-                                                    <a href="services.html">Services</a>
-                                                    <a href="single-product.html">Single product</a>
-                                                    <a href="team-member.html">Team member</a>
-                                                    <a href="wishlist.html">Wishlist</a>
-                                                    <a href="404.html">404</a>
-                                                </span>
-                                            </div>
-                                        </li>  
-                                        <li><a href="#"><span class="donate-tdy">Donate Today!</span></a></li>
+                                        <li><a href="/">Home</a></li>
+                                        <li><a href="/signup/">Register</a></li>
+                                        <li><a href="/portfolio/">Portfolio</a></li>
+                                        <li><a href="/blog/">Blog</a></li>
+                                        <li><a href="/gallery/">Gallery</a></li> 
+                                        <li class="active parent"><a href="">Contact us</a></li>
+                                        <li><a href="https://www.paypal.com/donate?token=T_l_-huobSyP6_BGc84nRXWl5UOnL1kvEG3y4tCY2BsvsI2WK6_5spIRncoNxkUFWKx_1lgz4SAj_q5wVe2XxPpJ4-e&useraction=commit/donate/&targetMeta=eyJ6b2lkVmVyc2lvbiI6IjlfMF81OCIsInRhcmdldCI6IkRPTkFURSIsInNka1ZlcnNpb24iOiIwLjguMCJ9&sdkMeta=eyJ1cmwiOiJodHRwczovL3d3dy5wYXlwYWxvYmplY3RzLmNvbS9kb25hdGUvc2RrL2RvbmF0ZS1zZGsuanMiLCJhdHRycyI6eyJkYXRhLXVpZCI6IjQyN2JjMzhiMjBfbWppNm16eTZudHEifX0" target="_blank"><span class="donate-tdy">Donate Today!</span></a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -145,66 +105,28 @@
             </div>
         </header>
         <!-- header-area end -->
-		<!-- mobile-menu-area start -->
-		<div class="mobile-menu-area visible-xs">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mobile-menu">
-							<nav id="dropdown">
-								<ul>
-									<li><a href="index.html">Home</a>
-										<ul>
-											<li><a href="index.html">Home Default</a></li>
-											<li><a href="index-2.html">Home Blue</a></li>
-											<li><a href="index-3.html">Home Turquoise</a></li>
-										</ul>
-									</li>
-									<li><a href="causes.html">Causes</a></li>
-									<li><a href="portfolio.html">Portfolio</a></li>
-									<li><a href="blog.html">Blog</a></li>
-									<li><a href="#">Pages</a>
-										<ul>
-											<li>
-												<a href="#">page set 1</a>
-												<ul>
-													<li><a href="shopping-cart.html">Cart</a></li>
-													<li><a href="shop-leftsidebar.html">Shop left sidebar</a></li>
-													<li><a href="shop-rightsidebar.html">Shop right sidebar</a></li>
-													<li><a href="shop-list.html">Shop list</a></li>
-													<li><a href="shop-fullwidth.html">Shop fullwidth</a></li>
-												</ul>
-											</li>
-											<li>
-												<a href="#">page set 2</a>
-												<ul>
-													<li><a href="blog-details.html">Blog details</a></li>
-													<li><a href="checkout.html">Checkout</a></li>
-													<li><a href="contact-us.html">Contact us</a></li>
-													<li><a href="gallery.html">Gallery</a></li>
-													<li><a href="my-account.html">My account</a></li>
-												</ul>
-											</li>
-											<li>
-												<a href="#">page set 3</a>
-												<ul>
-													<li><a href="services.html">Services</a></li>
-													<li><a href="single-product.html">Single product</a></li>
-													<li><a href="team-member.html">Team member</a></li>
-													<li><a href="wishlist.html">Wishlist</a></li>
-													<li><a href="404.html">404</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</nav>
-						</div>					
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- mobile-menu-area end -->
+		      <!-- mobile-menu-area start -->
+        <div class="mobile-menu-area visible-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mobile-menu">
+                            <nav id="dropdown">
+                                <ul>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/signup/">Register</a></li>
+                                    <li><a href="/portfolio/">Portfolio</a></li>
+                                    <li><a href="/blog/">Blog</a></li>
+                                    <li><a href="/gallery/">Gallery</a></li> 
+                                    <li><a href="">Contact us</a></li>
+                                </ul>
+                            </nav>
+                        </div>                  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile-menu-area end -->
         <!-- big-banner-area start -->
         <div class="big-banner-area text-center">
             <div class="container">
@@ -243,17 +165,16 @@
                         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
                             <div class="copyryt-txt">
                                 Copyright ©
-                                <a href="http://bootexperts.com">BootExperts.com</a> . All Rights Reserved
+                                <a href="">sarascare.org</a> . All Rights Reserved
                             </div>
                         </div>
                         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
                             <div class="footer-menu">
                                 <nav>
                                     <ul>
-                                        <li><a href="#">FAQ</a></li>
-                                        <li><a href="#">Our Story</a></li>
-                                        <li><a href="#">Be a Volunteer</a></li>
-                                        <li><a href="#">What we do</a></li>
+                                        <li><a href="/#about-us/">Our Story</a></li>
+                                        <li><a href="/signup/">Be a Volunteer</a></li>
+                                        <li><a href="/portfolio/">What we do</a></li>
                                     </ul>
                                 </nav>
                             </div>

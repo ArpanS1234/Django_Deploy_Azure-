@@ -2,18 +2,6 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.core.mail import send_mail
 from django.conf import settings
-import pyrebase 
-
-config {
-    'apiKey': "AIzaSyD1nlkB2-GMNA1Nsm4TGGH0A10X7GS4jxY",
-    'authDomain': "sarascare-py.firebaseapp.com",
-    'projectId': "sarascare-py",
-    'storageBucket': "sarascare-py.appspot.com",
-    'messagingSenderId': "291054721223",
-    'appId': "1:291054721223:web:c82261f4c3885e1e9346e2"
-};  
-
-firebase = pyrebase.initialize_app(config)
 
 # Create your views here.
 
@@ -58,34 +46,6 @@ def blog_6(request):
 
 def contactus(request):
     return render(request, 'sc_web/contact-us.html')
-
-# views.py
-
-def contact_form_submit(request):
-    if request.method == 'POST':
-        # Retrieve form data
-        name = request.POST.get('name')
-        email = request.POST.get('email')
-        subject = request.POST.get('subject')
-        message = request.POST.get('message')
-
-        # Construct email message
-        email_message = f"Name: {name}\nEmail: {email}\nSubject: {subject}\nMessage: {message}"
-
-        # Send email
-        send_mail(
-            subject='Contact Form Submission',
-            message=email_message,
-            from_email=settings.DEFAULT_FROM_EMAIL,
-            recipient_list=['sanduni@saras.care'],
-        )
-
-        # Redirect or return a success response
-        return HttpResponse("Form submitted successfully. Thank you!")
-    else:
-        # Handle GET request or other HTTP methods
-        return HttpResponse("Only POST requests are allowed for this endpoint.")
-
 
 def donate(request):
     return render(request, 'sc_web/donate.html')

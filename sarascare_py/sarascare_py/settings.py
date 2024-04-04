@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-63gddvop@%n4)hhk$-^5+he%#jdd6o(#rqa-mq5jsv#^esuukw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False    
 
-ALLOWED_HOSTS = ['https://sarascare-py.firebaseapp.com']
+ALLOWED_HOSTS = ['']
 
 # Application definition
 

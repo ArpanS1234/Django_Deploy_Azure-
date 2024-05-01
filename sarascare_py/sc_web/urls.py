@@ -19,7 +19,6 @@ urlpatterns = [
     path('blog_4/', views.blog_4, name='blog_4'),
     path('blog_5/', views.blog_5, name='blog_5'),
     path('blog_6/', views.blog_6, name='blog_6'),
-    path('contact-form-submit/', views.contact_form_submit, name='contact_form_submit'),
     # Add more paths as needed
 ]
 

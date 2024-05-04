@@ -24,7 +24,7 @@ connection_string = os.environ ['AZURE_POSTGRESOL_CONNECTIONSTRING']
 parameters = {pair.split('='):pair.split('=')[1] for pair in connection_string.split(' ')}
 DATABASES = {
 'default': {
-    'ENGINE': 'django.db.backends.postgresq]',
+    'ENGINE': 'django.db.backends.postgresql',
     'NAME' : parameters[ 'dbname'],
     'HOST': parameters [ 'host'],
     'USER': parameters ['user'],

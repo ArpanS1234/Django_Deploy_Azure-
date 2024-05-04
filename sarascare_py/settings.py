@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-63gddvop@%n4)hhk$-^5+he%#jdd6o(#rqa-mq5jsv#^esuukw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False    
+DEBUG = True   
 
-ALLOWED_HOSTS = ['pysarascare.azurewebsites.net']
+ALLOWED_HOSTS = []
 
 # Application definition
 

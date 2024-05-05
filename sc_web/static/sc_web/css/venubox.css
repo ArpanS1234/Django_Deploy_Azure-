@@ -160,7 +160,7 @@
     top:50%; 
     margin-left:-16px; 
     margin-top:-16px;
-    background-image: url(../img/venubox/preload-quads.png);
+    background-image: url(../img/venubox/preload-dots.png);
     text-indent: -100px;
     overflow: hidden;
     -webkit-animation: playload 1.4s steps(12) infinite;

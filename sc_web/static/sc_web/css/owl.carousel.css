@@ -54,7 +54,6 @@
 }
 
 
-
 /* fix */
 .owl-carousel  .owl-wrapper,
 .owl-carousel  .owl-item{
@@ -139,12 +138,6 @@
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 30px;
-}
-
-/* preloading images */
-.owl-item.loading{
-	min-height: 150px;
-	background: url(AjaxLoader.gif) no-repeat center center
 }
 
 
